@@ -1,0 +1,1057 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2
+					]
+				},
+				{
+					"build" : "fsfw",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						68
+					],
+					"jsonFile" : "directory-fsfw-Debug-22ff17e27fd29ed126ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "fsfw",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "_deps/etl-build",
+					"jsonFile" : "directory-_deps.etl-build-Debug-9f4f415341456cbaee4c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "cmake-build-debug/_deps/etl-src"
+				},
+				{
+					"build" : "fsfw/src",
+					"childIndexes" : 
+					[
+						4,
+						53,
+						58
+					],
+					"jsonFile" : "directory-fsfw.src-Debug-e8d15b358db7ab2f25a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "fsfw/src"
+				},
+				{
+					"build" : "fsfw/src/fsfw",
+					"childIndexes" : 
+					[
+						5,
+						6,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						18,
+						19,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						35,
+						36,
+						37,
+						38,
+						39,
+						46,
+						47,
+						48,
+						49,
+						50
+					],
+					"jsonFile" : "directory-fsfw.src.fsfw-Debug-4a514a77fe10dedd8b81.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw"
+				},
+				{
+					"build" : "fsfw/src/fsfw/action",
+					"jsonFile" : "directory-fsfw.src.fsfw.action-Debug-57b5ec610d2dad2917a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/action"
+				},
+				{
+					"build" : "fsfw/src/fsfw/cfdp",
+					"childIndexes" : 
+					[
+						7,
+						8,
+						9
+					],
+					"jsonFile" : "directory-fsfw.src.fsfw.cfdp-Debug-22cd6465de74c0988d80.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/cfdp"
+				},
+				{
+					"build" : "fsfw/src/fsfw/cfdp/pdu",
+					"jsonFile" : "directory-fsfw.src.fsfw.cfdp.pdu-Debug-3b98d16558c11ed7bb7a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/cfdp/pdu"
+				},
+				{
+					"build" : "fsfw/src/fsfw/cfdp/tlv",
+					"jsonFile" : "directory-fsfw.src.fsfw.cfdp.tlv-Debug-3745540479b2b99b110e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/cfdp/tlv"
+				},
+				{
+					"build" : "fsfw/src/fsfw/cfdp/handler",
+					"jsonFile" : "directory-fsfw.src.fsfw.cfdp.handler-Debug-0296e8e31bf5daff6421.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/cfdp/handler"
+				},
+				{
+					"build" : "fsfw/src/fsfw/container",
+					"jsonFile" : "directory-fsfw.src.fsfw.container-Debug-ae0116732a91cbfd178c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/container"
+				},
+				{
+					"build" : "fsfw/src/fsfw/controller",
+					"jsonFile" : "directory-fsfw.src.fsfw.controller-Debug-90c8e5707847114a4cd2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/controller"
+				},
+				{
+					"build" : "fsfw/src/fsfw/datapool",
+					"jsonFile" : "directory-fsfw.src.fsfw.datapool-Debug-0f4cc660ee23f0b4e082.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/datapool"
+				},
+				{
+					"build" : "fsfw/src/fsfw/datapoollocal",
+					"childIndexes" : 
+					[
+						14
+					],
+					"jsonFile" : "directory-fsfw.src.fsfw.datapoollocal-Debug-85a71d11907b4210fbb9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/datapoollocal"
+				},
+				{
+					"build" : "fsfw/src/fsfw/datapoollocal/internal",
+					"jsonFile" : "directory-fsfw.src.fsfw.datapoollocal.internal-Debug-39303dabf021a6a12572.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/datapoollocal/internal"
+				},
+				{
+					"build" : "fsfw/src/fsfw/devicehandlers",
+					"jsonFile" : "directory-fsfw.src.fsfw.devicehandlers-Debug-4bb1d8e36de1694274e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/devicehandlers"
+				},
+				{
+					"build" : "fsfw/src/fsfw/events",
+					"childIndexes" : 
+					[
+						17
+					],
+					"jsonFile" : "directory-fsfw.src.fsfw.events-Debug-ff1f9cbb146c397de6af.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/events"
+				},
+				{
+					"build" : "fsfw/src/fsfw/events/eventmatching",
+					"jsonFile" : "directory-fsfw.src.fsfw.events.eventmatching-Debug-ecd6662e84f4799fd449.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/events/eventmatching"
+				},
+				{
+					"build" : "fsfw/src/fsfw/fdir",
+					"jsonFile" : "directory-fsfw.src.fsfw.fdir-Debug-dd5b9b548d06b8277ebc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/fdir"
+				},
+				{
+					"build" : "fsfw/src/fsfw/globalfunctions",
+					"childIndexes" : 
+					[
+						20
+					],
+					"jsonFile" : "directory-fsfw.src.fsfw.globalfunctions-Debug-d8d218924410b1914899.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/globalfunctions"
+				},
+				{
+					"build" : "fsfw/src/fsfw/globalfunctions/math",
+					"jsonFile" : "directory-fsfw.src.fsfw.globalfunctions.math-Debug-22a87ef1f2bbb6d29845.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/globalfunctions/math"
+				},
+				{
+					"build" : "fsfw/src/fsfw/health",
+					"jsonFile" : "directory-fsfw.src.fsfw.health-Debug-ef80c63a8fa74fea2826.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/health"
+				},
+				{
+					"build" : "fsfw/src/fsfw/housekeeping",
+					"jsonFile" : "directory-fsfw.src.fsfw.housekeeping-Debug-0ea7df95e4f47f02b878.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/housekeeping"
+				},
+				{
+					"build" : "fsfw/src/fsfw/internalerror",
+					"jsonFile" : "directory-fsfw.src.fsfw.internalerror-Debug-6cbef688acee6c55feff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/internalerror"
+				},
+				{
+					"build" : "fsfw/src/fsfw/ipc",
+					"jsonFile" : "directory-fsfw.src.fsfw.ipc-Debug-078b15e849fb7770a376.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/ipc"
+				},
+				{
+					"build" : "fsfw/src/fsfw/memory",
+					"jsonFile" : "directory-fsfw.src.fsfw.memory-Debug-45f54117884a08565b6f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/memory"
+				},
+				{
+					"build" : "fsfw/src/fsfw/modes",
+					"jsonFile" : "directory-fsfw.src.fsfw.modes-Debug-e3cb94a051438e1bca79.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/modes"
+				},
+				{
+					"build" : "fsfw/src/fsfw/objectmanager",
+					"jsonFile" : "directory-fsfw.src.fsfw.objectmanager-Debug-56cb377a890919deb0c2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/objectmanager"
+				},
+				{
+					"build" : "fsfw/src/fsfw/parameters",
+					"jsonFile" : "directory-fsfw.src.fsfw.parameters-Debug-0a54658162b1a3678f72.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/parameters"
+				},
+				{
+					"build" : "fsfw/src/fsfw/power",
+					"jsonFile" : "directory-fsfw.src.fsfw.power-Debug-4d66bc928370b36005d5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/power"
+				},
+				{
+					"build" : "fsfw/src/fsfw/serialize",
+					"jsonFile" : "directory-fsfw.src.fsfw.serialize-Debug-5ca24964e382654d0885.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/serialize"
+				},
+				{
+					"build" : "fsfw/src/fsfw/serviceinterface",
+					"jsonFile" : "directory-fsfw.src.fsfw.serviceinterface-Debug-e8f6e817e2b7e8e0f192.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/serviceinterface"
+				},
+				{
+					"build" : "fsfw/src/fsfw/storagemanager",
+					"jsonFile" : "directory-fsfw.src.fsfw.storagemanager-Debug-59813600a4690ae5b3fc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/storagemanager"
+				},
+				{
+					"build" : "fsfw/src/fsfw/subsystem",
+					"childIndexes" : 
+					[
+						34
+					],
+					"jsonFile" : "directory-fsfw.src.fsfw.subsystem-Debug-27b6dd81d9b9edaeac73.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/subsystem"
+				},
+				{
+					"build" : "fsfw/src/fsfw/subsystem/modes",
+					"jsonFile" : "directory-fsfw.src.fsfw.subsystem.modes-Debug-1ff9e7dbd05c9edfe45d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 33,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/subsystem/modes"
+				},
+				{
+					"build" : "fsfw/src/fsfw/tasks",
+					"jsonFile" : "directory-fsfw.src.fsfw.tasks-Debug-95d437cde7f8a77311a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/tasks"
+				},
+				{
+					"build" : "fsfw/src/fsfw/tcdistribution",
+					"jsonFile" : "directory-fsfw.src.fsfw.tcdistribution-Debug-aadc0119c6e999eca936.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/tcdistribution"
+				},
+				{
+					"build" : "fsfw/src/fsfw/thermal",
+					"jsonFile" : "directory-fsfw.src.fsfw.thermal-Debug-776a413305690810cefa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/thermal"
+				},
+				{
+					"build" : "fsfw/src/fsfw/timemanager",
+					"jsonFile" : "directory-fsfw.src.fsfw.timemanager-Debug-86f4ecdc4cb9021083df.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/timemanager"
+				},
+				{
+					"build" : "fsfw/src/fsfw/tmtcpacket",
+					"childIndexes" : 
+					[
+						40,
+						41,
+						44,
+						45
+					],
+					"jsonFile" : "directory-fsfw.src.fsfw.tmtcpacket-Debug-88665a606828d5384e87.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/tmtcpacket"
+				},
+				{
+					"build" : "fsfw/src/fsfw/tmtcpacket/ccsds",
+					"jsonFile" : "directory-fsfw.src.fsfw.tmtcpacket.ccsds-Debug-8c2e5b84e37daca4e86a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 39,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/tmtcpacket/ccsds"
+				},
+				{
+					"build" : "fsfw/src/fsfw/tmtcpacket/pus",
+					"childIndexes" : 
+					[
+						42,
+						43
+					],
+					"jsonFile" : "directory-fsfw.src.fsfw.tmtcpacket.pus-Debug-d212e74a444434dd38fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 39,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/tmtcpacket/pus"
+				},
+				{
+					"build" : "fsfw/src/fsfw/tmtcpacket/pus/tm",
+					"jsonFile" : "directory-fsfw.src.fsfw.tmtcpacket.pus.tm-Debug-03a876bdc815781317cd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 41,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/tmtcpacket/pus/tm"
+				},
+				{
+					"build" : "fsfw/src/fsfw/tmtcpacket/pus/tc",
+					"jsonFile" : "directory-fsfw.src.fsfw.tmtcpacket.pus.tc-Debug-ddb5827f64346a4202b4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 41,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/tmtcpacket/pus/tc"
+				},
+				{
+					"build" : "fsfw/src/fsfw/tmtcpacket/cfdp",
+					"jsonFile" : "directory-fsfw.src.fsfw.tmtcpacket.cfdp-Debug-84e465230de97351505d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 39,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/tmtcpacket/cfdp"
+				},
+				{
+					"build" : "fsfw/src/fsfw/tmtcpacket/packetmatcher",
+					"jsonFile" : "directory-fsfw.src.fsfw.tmtcpacket.packetmatcher-Debug-d40da4b75a0ef95915b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 39,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/tmtcpacket/packetmatcher"
+				},
+				{
+					"build" : "fsfw/src/fsfw/tmtcservices",
+					"jsonFile" : "directory-fsfw.src.fsfw.tmtcservices-Debug-0de751fe678563a3b328.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/tmtcservices"
+				},
+				{
+					"build" : "fsfw/src/fsfw/filesystem",
+					"jsonFile" : "directory-fsfw.src.fsfw.filesystem-Debug-d772903cf4253773883a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/filesystem"
+				},
+				{
+					"build" : "fsfw/src/fsfw/monitoring",
+					"jsonFile" : "directory-fsfw.src.fsfw.monitoring-Debug-eead1d9b7dfad432f6cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/monitoring"
+				},
+				{
+					"build" : "fsfw/src/fsfw/pus",
+					"jsonFile" : "directory-fsfw.src.fsfw.pus-Debug-39fb0c33c148e81c0d72.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/pus"
+				},
+				{
+					"build" : "fsfw/src/fsfw/osal",
+					"childIndexes" : 
+					[
+						51,
+						52
+					],
+					"jsonFile" : "directory-fsfw.src.fsfw.osal-Debug-e81beb4bcd2dfd545976.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/osal"
+				},
+				{
+					"build" : "fsfw/src/fsfw/osal/freertos",
+					"jsonFile" : "directory-fsfw.src.fsfw.osal.freertos-Debug-f23f28e31e571e4c8ab7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 50,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/osal/freertos"
+				},
+				{
+					"build" : "fsfw/src/fsfw/osal/common",
+					"jsonFile" : "directory-fsfw.src.fsfw.osal.common-Debug-9bd823465201271b2282.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 50,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw/osal/common"
+				},
+				{
+					"build" : "fsfw/src/fsfw_hal",
+					"childIndexes" : 
+					[
+						54,
+						55,
+						57
+					],
+					"jsonFile" : "directory-fsfw.src.fsfw_hal-Debug-4e3888e89d52ed353ff2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw_hal"
+				},
+				{
+					"build" : "fsfw/src/fsfw_hal/devicehandlers",
+					"jsonFile" : "directory-fsfw.src.fsfw_hal.devicehandlers-Debug-e0b73c9a50e6f50e4c6d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 53,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw_hal/devicehandlers"
+				},
+				{
+					"build" : "fsfw/src/fsfw_hal/common",
+					"childIndexes" : 
+					[
+						56
+					],
+					"jsonFile" : "directory-fsfw.src.fsfw_hal.common-Debug-e2ba634738cfa00ed772.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 53,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw_hal/common"
+				},
+				{
+					"build" : "fsfw/src/fsfw_hal/common/gpio",
+					"jsonFile" : "directory-fsfw.src.fsfw_hal.common.gpio-Debug-e94d63fa0fb13c83fea8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 55,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw_hal/common/gpio"
+				},
+				{
+					"build" : "fsfw/src/fsfw_hal/host",
+					"jsonFile" : "directory-fsfw.src.fsfw_hal.host-Debug-254dfaed0a14a1c1bd3c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 53,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw_hal/host"
+				},
+				{
+					"build" : "fsfw/src/fsfw_tests",
+					"childIndexes" : 
+					[
+						59,
+						63
+					],
+					"jsonFile" : "directory-fsfw.src.fsfw_tests-Debug-322acd84c0bfdd488520.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw_tests"
+				},
+				{
+					"build" : "fsfw/src/fsfw_tests/internal",
+					"childIndexes" : 
+					[
+						60,
+						61,
+						62
+					],
+					"jsonFile" : "directory-fsfw.src.fsfw_tests.internal-Debug-868d22faa629d511eb21.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 58,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw_tests/internal"
+				},
+				{
+					"build" : "fsfw/src/fsfw_tests/internal/osal",
+					"jsonFile" : "directory-fsfw.src.fsfw_tests.internal.osal-Debug-009072f78070c1ecb103.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw_tests/internal/osal"
+				},
+				{
+					"build" : "fsfw/src/fsfw_tests/internal/serialize",
+					"jsonFile" : "directory-fsfw.src.fsfw_tests.internal.serialize-Debug-b595d959020002d87b6d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw_tests/internal/serialize"
+				},
+				{
+					"build" : "fsfw/src/fsfw_tests/internal/globalfunctions",
+					"jsonFile" : "directory-fsfw.src.fsfw_tests.internal.globalfunctions-Debug-ae790ab8e747fd4105c1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 59,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw_tests/internal/globalfunctions"
+				},
+				{
+					"build" : "fsfw/src/fsfw_tests/integration",
+					"childIndexes" : 
+					[
+						64,
+						65,
+						66,
+						67
+					],
+					"jsonFile" : "directory-fsfw.src.fsfw_tests.integration-Debug-113b7d11623974e0d09f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 58,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw_tests/integration"
+				},
+				{
+					"build" : "fsfw/src/fsfw_tests/integration/assemblies",
+					"jsonFile" : "directory-fsfw.src.fsfw_tests.integration.assemblies-Debug-9cc840ff5e72213135cb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 63,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw_tests/integration/assemblies"
+				},
+				{
+					"build" : "fsfw/src/fsfw_tests/integration/controller",
+					"jsonFile" : "directory-fsfw.src.fsfw_tests.integration.controller-Debug-bd477155ae639c1826ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 63,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw_tests/integration/controller"
+				},
+				{
+					"build" : "fsfw/src/fsfw_tests/integration/devices",
+					"jsonFile" : "directory-fsfw.src.fsfw_tests.integration.devices-Debug-7e4eddd771694ac680fb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 63,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw_tests/integration/devices"
+				},
+				{
+					"build" : "fsfw/src/fsfw_tests/integration/task",
+					"jsonFile" : "directory-fsfw.src.fsfw_tests.integration.task-Debug-03e7b644db2078225623.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 63,
+					"projectIndex" : 1,
+					"source" : "fsfw/src/fsfw_tests/integration/task"
+				},
+				{
+					"build" : "fsfw/contrib",
+					"childIndexes" : 
+					[
+						69
+					],
+					"jsonFile" : "directory-fsfw.contrib-Debug-eb6097d4d26a7c58e97c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "fsfw/contrib"
+				},
+				{
+					"build" : "fsfw/contrib/fsfw_contrib",
+					"jsonFile" : "directory-fsfw.contrib.fsfw_contrib-Debug-951d68670b65b582addf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 68,
+					"projectIndex" : 1,
+					"source" : "fsfw/contrib/fsfw_contrib"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "fsfw-test",
+					"targetIndexes" : 
+					[
+						0,
+						2
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69
+					],
+					"name" : "fsfw",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "etl",
+					"parentIndex" : 1
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "FreeRTOS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FreeRTOS-Debug-e926053d58bf8c62ada0.json",
+					"name" : "FreeRTOS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fsfw::@b0404f0086aa5679e2d0",
+					"jsonFile" : "target-fsfw-Debug-402c1b05c195484f3599.json",
+					"name" : "fsfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fsfw-test.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fsfw-test.elf-Debug-380be2397a651f22ad61.json",
+					"name" : "fsfw-test.elf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug",
+		"source" : "/Users/kryptokommunist/CLionProjects/fsfw-test"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

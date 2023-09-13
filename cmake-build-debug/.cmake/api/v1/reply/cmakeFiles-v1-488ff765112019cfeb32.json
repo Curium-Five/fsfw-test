@@ -1,0 +1,457 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.26.4/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.26.4/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.26.4/CMakeASMCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeFindCodeBlocks.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/ProcessorCount.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeASMInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU-ASM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"path" : "fsfw/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/cmake/FsfwHelpers.cmake"
+		},
+		{
+			"path" : "fsfw/cmake/cmake-modules/rpavlik/GetGitRevisionDescription.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FetchContent.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FetchContent/CMakeLists.cmake.in"
+		},
+		{
+			"path" : "fsfw/src/fsfw/FSFW.h.in"
+		},
+		{
+			"path" : "fsfw/src/fsfw/FSFWVersion.h.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/etl-src/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/etl-src/cmake/helpers.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/etl-src/cmake/GetGitRevisionDescription.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/etl-src/.git/HEAD"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/etl-src/cmake/GetGitRevisionDescription.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/etl-build/CMakeFiles/git-data/grabRef.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/_deps/etl-src/.git/HEAD"
+		},
+		{
+			"path" : "fsfw/src/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/action/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/cfdp/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/cfdp/pdu/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/cfdp/tlv/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/cfdp/handler/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/container/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/controller/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/datapool/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/datapoollocal/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/datapoollocal/internal/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/devicehandlers/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/events/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/events/eventmatching/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/fdir/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/globalfunctions/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/globalfunctions/math/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/health/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/housekeeping/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/internalerror/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/ipc/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/memory/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/modes/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/objectmanager/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/parameters/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/power/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/serialize/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/serviceinterface/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/storagemanager/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/subsystem/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/subsystem/modes/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/tasks/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/tcdistribution/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/thermal/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/timemanager/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/tmtcpacket/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/tmtcpacket/ccsds/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/tmtcpacket/pus/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/tmtcpacket/pus/tm/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/tmtcpacket/pus/tc/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/tmtcpacket/cfdp/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/tmtcpacket/packetmatcher/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/tmtcservices/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/filesystem/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/monitoring/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/pus/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/osal/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/osal/osal.h.in"
+		},
+		{
+			"path" : "fsfw/src/fsfw/osal/freertos/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw/osal/common/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw_hal/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw_hal/devicehandlers/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw_hal/common/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw_hal/common/gpio/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw_hal/host/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw_tests/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw_tests/internal/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw_tests/internal/osal/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw_tests/internal/serialize/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw_tests/internal/globalfunctions/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw_tests/integration/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw_tests/integration/assemblies/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw_tests/integration/controller/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw_tests/integration/devices/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/src/fsfw_tests/integration/task/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/contrib/CMakeLists.txt"
+		},
+		{
+			"path" : "fsfw/contrib/fsfw_contrib/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug",
+		"source" : "/Users/kryptokommunist/CLionProjects/fsfw-test"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "fsfw/src/fsfw/ipc",
+		"source" : "fsfw/src/fsfw/ipc"
+	}
+}

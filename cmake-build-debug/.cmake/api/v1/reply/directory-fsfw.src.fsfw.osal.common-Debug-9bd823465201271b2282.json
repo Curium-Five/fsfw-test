@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "fsfw/src/fsfw/osal/common",
+		"source" : "fsfw/src/fsfw/osal/common"
+	}
+}

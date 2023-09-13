@@ -1,0 +1,2232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="fsfw-test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\etl-src\;CMake Files\cmake-build-debug\_deps\etl-src\cmake\;CMake Files\cmake-build-debug\_deps\etl-src\.git\;CMake Files\fsfw\;CMake Files\fsfw\cmake\;CMake Files\fsfw\cmake\cmake-modules\;CMake Files\fsfw\cmake\cmake-modules\rpavlik\;CMake Files\fsfw\src\;CMake Files\fsfw\src\fsfw\;CMake Files\fsfw\src\fsfw\action\;CMake Files\fsfw\src\fsfw\cfdp\;CMake Files\fsfw\src\fsfw\cfdp\pdu\;CMake Files\fsfw\src\fsfw\cfdp\tlv\;CMake Files\fsfw\src\fsfw\cfdp\handler\;CMake Files\fsfw\src\fsfw\container\;CMake Files\fsfw\src\fsfw\controller\;CMake Files\fsfw\src\fsfw\datapool\;CMake Files\fsfw\src\fsfw\datapoollocal\;CMake Files\fsfw\src\fsfw\datapoollocal\internal\;CMake Files\fsfw\src\fsfw\devicehandlers\;CMake Files\fsfw\src\fsfw\events\;CMake Files\fsfw\src\fsfw\events\eventmatching\;CMake Files\fsfw\src\fsfw\fdir\;CMake Files\fsfw\src\fsfw\globalfunctions\;CMake Files\fsfw\src\fsfw\globalfunctions\math\;CMake Files\fsfw\src\fsfw\health\;CMake Files\fsfw\src\fsfw\housekeeping\;CMake Files\fsfw\src\fsfw\internalerror\;CMake Files\fsfw\src\fsfw\ipc\;CMake Files\fsfw\src\fsfw\memory\;CMake Files\fsfw\src\fsfw\modes\;CMake Files\fsfw\src\fsfw\objectmanager\;CMake Files\fsfw\src\fsfw\parameters\;CMake Files\fsfw\src\fsfw\power\;CMake Files\fsfw\src\fsfw\serialize\;CMake Files\fsfw\src\fsfw\serviceinterface\;CMake Files\fsfw\src\fsfw\storagemanager\;CMake Files\fsfw\src\fsfw\subsystem\;CMake Files\fsfw\src\fsfw\subsystem\modes\;CMake Files\fsfw\src\fsfw\tasks\;CMake Files\fsfw\src\fsfw\tcdistribution\;CMake Files\fsfw\src\fsfw\thermal\;CMake Files\fsfw\src\fsfw\timemanager\;CMake Files\fsfw\src\fsfw\tmtcpacket\;CMake Files\fsfw\src\fsfw\tmtcpacket\ccsds\;CMake Files\fsfw\src\fsfw\tmtcpacket\pus\;CMake Files\fsfw\src\fsfw\tmtcpacket\pus\tm\;CMake Files\fsfw\src\fsfw\tmtcpacket\pus\tc\;CMake Files\fsfw\src\fsfw\tmtcpacket\cfdp\;CMake Files\fsfw\src\fsfw\tmtcpacket\packetmatcher\;CMake Files\fsfw\src\fsfw\tmtcservices\;CMake Files\fsfw\src\fsfw\filesystem\;CMake Files\fsfw\src\fsfw\monitoring\;CMake Files\fsfw\src\fsfw\pus\;CMake Files\fsfw\src\fsfw\osal\;CMake Files\fsfw\src\fsfw\osal\freertos\;CMake Files\fsfw\src\fsfw\osal\common\;CMake Files\fsfw\src\fsfw_hal\;CMake Files\fsfw\src\fsfw_hal\devicehandlers\;CMake Files\fsfw\src\fsfw_hal\common\;CMake Files\fsfw\src\fsfw_hal\common\gpio\;CMake Files\fsfw\src\fsfw_hal\host\;CMake Files\fsfw\src\fsfw_tests\;CMake Files\fsfw\src\fsfw_tests\internal\;CMake Files\fsfw\src\fsfw_tests\internal\osal\;CMake Files\fsfw\src\fsfw_tests\internal\serialize\;CMake Files\fsfw\src\fsfw_tests\internal\globalfunctions\;CMake Files\fsfw\src\fsfw_tests\integration\;CMake Files\fsfw\src\fsfw_tests\integration\assemblies\;CMake Files\fsfw\src\fsfw_tests\integration\controller\;CMake Files\fsfw\src\fsfw_tests\integration\devices\;CMake Files\fsfw\src\fsfw_tests\integration\task\;CMake Files\fsfw\contrib\;CMake Files\fsfw\contrib\fsfw_contrib\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FreeRTOS">
+				<Option output="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/libFreeRTOS.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F411xE"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Core/Inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 FreeRTOS"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FreeRTOS/fast">
+				<Option output="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/libFreeRTOS.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F411xE"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Core/Inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 FreeRTOS/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fsfw-test.elf">
+				<Option output="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/fsfw-test.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F411xE"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Core/Inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/fsfw"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/contrib"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/config_default"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/_deps/etl-src/include"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 fsfw-test.elf"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fsfw-test.elf/fast">
+				<Option output="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/fsfw-test.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F411xE"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Core/Inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/fsfw"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/contrib"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/config_default"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/_deps/etl-src/include"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 fsfw-test.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fsfw">
+				<Option output="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/fsfw/libfsfw.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/fsfw"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Core/Inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/fsfw"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/contrib"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/config_default"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/_deps/etl-src/include"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/fsfw/Makefile&quot;  VERBOSE=1 fsfw"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/fsfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/fsfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/fsfw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fsfw/fast">
+				<Option output="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/fsfw/libfsfw.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/fsfw"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Core/Inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/fsfw"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/contrib"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/config_default"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/inc"/>
+					<Add directory="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/_deps/etl-src/include"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/fsfw/Makefile&quot;  VERBOSE=1 fsfw/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/fsfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/fsfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/fsfw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/LICENSE.txt">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s_ex.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc/usbh_cdc.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ioreq.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/atomic.h">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+			<Option target="FreeRTOS"/>
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/STM32F411VETX_FLASH.ld">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Src/freertos.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Src/main.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Src/stm32f4xx_hal_msp.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Src/stm32f4xx_it.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Src/syscalls.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Src/sysmem.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Src/system_stm32f4xx.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Src/usb_host.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Src/usbh_conf.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Src/usbh_platform.c">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/Startup/startup_stm32f411vetx.s">
+			<Option target="fsfw-test.elf"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/action/ActionHelper.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/action/ActionHelper.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/action/ActionMessage.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/action/ActionMessage.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/action/CommandActionHelper.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/action/CommandActionHelper.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/action/SimpleActionHelper.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/action/SimpleActionHelper.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/CfdpDistributor.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/CfdpDistributor.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/CfdpMessage.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/CfdpMessage.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/VarLenFields.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/VarLenFields.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/handler/FaultHandlerBase.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/handler/FaultHandlerBase.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/handler/UserBase.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/handler/UserBase.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/helpers.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/helpers.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/AckInfo.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/AckInfo.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/AckPduCreator.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/AckPduCreator.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/AckPduReader.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/AckPduReader.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/EofInfo.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/EofInfo.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/EofPduCreator.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/EofPduCreator.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/EofPduReader.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/EofPduReader.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/FileDataCreator.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/FileDataCreator.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/FileDataInfo.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/FileDataInfo.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/FileDataReader.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/FileDataReader.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/FileDirectiveCreator.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/FileDirectiveCreator.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/FileDirectiveReader.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/FileDirectiveReader.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/FinishedInfo.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/FinishedInfo.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/FinishedPduCreator.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/FinishedPduCreator.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/FinishedPduReader.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/FinishedPduReader.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/HeaderCreator.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/HeaderCreator.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/HeaderReader.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/KeepAlivePduCreator.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/KeepAlivePduCreator.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/KeepAlivePduReader.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/KeepAlivePduReader.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/MetadataInfo.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/MetadataInfo.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/MetadataPduCreator.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/MetadataPduCreator.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/MetadataPduReader.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/MetadataPduReader.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/NakInfo.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/NakInfo.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/NakPduCreator.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/NakPduCreator.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/NakPduReader.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/NakPduReader.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/PduConfig.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/PduConfig.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/PromptPduCreator.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/PromptPduCreator.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/PromptPduReader.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/PromptPduReader.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/tlv/EntityIdTlv.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/tlv/EntityIdTlv.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/tlv/FaultHandlerOverrideTlv.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/tlv/FaultHandlerOverrideTlv.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/tlv/FilestoreRequestTlv.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/tlv/FilestoreRequestTlv.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/tlv/FilestoreResponseTlv.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/tlv/FilestoreResponseTlv.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/tlv/FlowLabelTlv.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/tlv/FlowLabelTlv.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/tlv/Lv.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/tlv/Lv.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/tlv/MessageToUserTlv.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/tlv/MessageToUserTlv.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/tlv/StringLv.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/tlv/StringLv.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/tlv/Tlv.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/tlv/Tlv.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/container/SharedRingBuffer.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/container/SharedRingBuffer.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/container/SimpleRingBuffer.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/container/SimpleRingBuffer.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/controller/ControllerBase.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/controller/ControllerBase.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/controller/ExtendedControllerBase.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/controller/ExtendedControllerBase.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/datapool/PoolDataSetBase.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/datapool/PoolDataSetBase.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/datapool/PoolEntry.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/datapool/PoolEntry.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/datapoollocal/LocalDataPoolManager.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/datapoollocal/LocalDataPoolManager.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/datapoollocal/LocalDataSet.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/datapoollocal/LocalDataSet.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/datapoollocal/LocalPoolDataSetBase.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/datapoollocal/LocalPoolDataSetBase.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/datapoollocal/LocalPoolObjectBase.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/datapoollocal/LocalPoolObjectBase.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/datapoollocal/SharedLocalDataSet.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/datapoollocal/SharedLocalDataSet.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/datapoollocal/internal/HasLocalDpIFManagerAttorney.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/datapoollocal/internal/HasLocalDpIFManagerAttorney.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/datapoollocal/internal/HasLocalDpIFUserAttorney.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/datapoollocal/internal/HasLocalDpIFUserAttorney.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/devicehandlers/AssemblyBase.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/devicehandlers/AssemblyBase.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/devicehandlers/ChildHandlerBase.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/devicehandlers/ChildHandlerBase.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/devicehandlers/ChildHandlerFDIR.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/devicehandlers/ChildHandlerFDIR.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/devicehandlers/DeviceHandlerBase.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/devicehandlers/DeviceHandlerBase.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/devicehandlers/DeviceHandlerFailureIsolation.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/devicehandlers/DeviceHandlerFailureIsolation.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/devicehandlers/DeviceHandlerMessage.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/devicehandlers/DeviceHandlerMessage.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/devicehandlers/DeviceTmReportingWrapper.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/devicehandlers/DeviceTmReportingWrapper.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/devicehandlers/HealthDevice.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/devicehandlers/HealthDevice.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/events/EventManager.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/events/EventManager.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/events/EventMessage.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/events/EventMessage.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/events/eventmatching/EventIdRangeMatcher.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/events/eventmatching/EventIdRangeMatcher.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/events/eventmatching/EventMatchTree.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/events/eventmatching/EventMatchTree.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/events/eventmatching/ReporterRangeMatcher.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/events/eventmatching/ReporterRangeMatcher.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/events/eventmatching/SeverityRangeMatcher.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/events/eventmatching/SeverityRangeMatcher.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/fdir/EventCorrelation.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/fdir/EventCorrelation.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/fdir/FailureIsolationBase.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/fdir/FailureIsolationBase.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/fdir/FaultCounter.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/fdir/FaultCounter.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/filesystem/GenericFileSystemMessage.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/filesystem/GenericFileSystemMessage.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/globalfunctions/AsciiConverter.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/globalfunctions/AsciiConverter.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/globalfunctions/CRC.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/globalfunctions/CRC.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/globalfunctions/DleEncoder.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/globalfunctions/DleEncoder.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/globalfunctions/DleParser.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/globalfunctions/DleParser.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/globalfunctions/PeriodicOperationDivider.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/globalfunctions/PeriodicOperationDivider.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/globalfunctions/Type.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/globalfunctions/Type.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/globalfunctions/arrayprinter.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/globalfunctions/arrayprinter.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/globalfunctions/bitutility.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/globalfunctions/bitutility.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/globalfunctions/math/QuaternionOperations.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/globalfunctions/math/QuaternionOperations.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/globalfunctions/timevalOperations.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/globalfunctions/timevalOperations.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/health/HealthHelper.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/health/HealthHelper.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/health/HealthMessage.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/health/HealthMessage.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/health/HealthTable.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/health/HealthTable.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/housekeeping/HousekeepingMessage.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/housekeeping/HousekeepingMessage.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/housekeeping/PeriodicHousekeepingHelper.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/housekeeping/PeriodicHousekeepingHelper.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/internalerror/InternalErrorReporter.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/internalerror/InternalErrorReporter.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/ipc/CommandMessage.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/ipc/CommandMessage.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/ipc/CommandMessageCleaner.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/ipc/CommandMessageCleaner.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/ipc/MessageQueueBase.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/ipc/MessageQueueBase.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/ipc/MessageQueueMessage.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/ipc/MessageQueueMessage.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/memory/MemoryHelper.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/memory/MemoryHelper.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/memory/MemoryMessage.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/memory/MemoryMessage.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/modes/ModeHelper.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/modes/ModeHelper.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/modes/ModeMessage.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/modes/ModeMessage.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/monitoring/LimitViolationReporter.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/monitoring/LimitViolationReporter.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/monitoring/MonitoringMessage.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/monitoring/MonitoringMessage.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/objectmanager/ObjectManager.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/objectmanager/ObjectManager.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/objectmanager/SystemObject.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/objectmanager/SystemObject.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/BinSemaphUsingTask.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/BinSemaphUsingTask.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/BinarySemaphore.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/BinarySemaphore.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/Clock.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/CountingSemaphUsingTask.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/CountingSemaphUsingTask.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/CountingSemaphore.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/CountingSemaphore.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/FixedTimeslotTask.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/FixedTimeslotTask.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/MessageQueue.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/MessageQueue.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/Mutex.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/Mutex.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/MutexFactory.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/PeriodicTask.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/PeriodicTask.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/QueueFactory.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/QueueMapManager.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/QueueMapManager.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/SemaphoreFactory.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/TaskFactory.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/TaskManagement.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/TaskManagement.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/Timekeeper.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/Timekeeper.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/parameters/ParameterHelper.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/parameters/ParameterHelper.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/parameters/ParameterMessage.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/parameters/ParameterMessage.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/parameters/ParameterWrapper.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/parameters/ParameterWrapper.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/power/DummyPowerSwitcher.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/power/DummyPowerSwitcher.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/power/Fuse.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/power/Fuse.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/power/PowerComponent.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/power/PowerComponent.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/power/PowerSensor.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/power/PowerSensor.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/power/PowerSwitcher.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/power/PowerSwitcher.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/power/PowerSwitcherComponent.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/power/PowerSwitcherComponent.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/pus/CService200ModeCommanding.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/pus/CService200ModeCommanding.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/pus/CServiceHealthCommanding.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/pus/CServiceHealthCommanding.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/pus/Service17Test.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/pus/Service17Test.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/pus/Service1TelecommandVerification.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/pus/Service1TelecommandVerification.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/pus/Service20ParameterManagement.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/pus/Service20ParameterManagement.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/pus/Service2DeviceAccess.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/pus/Service2DeviceAccess.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/pus/Service3Housekeeping.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/pus/Service3Housekeeping.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/pus/Service5EventReporting.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/pus/Service5EventReporting.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/pus/Service8FunctionManagement.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/pus/Service8FunctionManagement.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/pus/Service9TimeManagement.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/pus/Service9TimeManagement.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/serialize/SerialBufferAdapter.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/serialize/SerialBufferAdapter.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/serviceinterface/ServiceInterfaceBuffer.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/serviceinterface/ServiceInterfaceBuffer.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/serviceinterface/ServiceInterfacePrinter.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/serviceinterface/ServiceInterfacePrinter.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/serviceinterface/ServiceInterfaceStream.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/serviceinterface/ServiceInterfaceStream.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/storagemanager/ConstStorageAccessor.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/storagemanager/ConstStorageAccessor.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/storagemanager/LocalPool.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/storagemanager/LocalPool.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/storagemanager/PoolManager.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/storagemanager/PoolManager.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/storagemanager/StorageAccessor.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/storagemanager/StorageAccessor.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/subsystem/Subsystem.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/subsystem/Subsystem.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/subsystem/SubsystemBase.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/subsystem/SubsystemBase.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/subsystem/modes/ModeSequenceMessage.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/subsystem/modes/ModeSequenceMessage.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/subsystem/modes/ModeStore.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/subsystem/modes/ModeStore.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tasks/FixedSequenceSlot.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tasks/FixedSequenceSlot.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tasks/FixedSlotSequence.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tasks/FixedSlotSequence.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tasks/FixedTimeslotTaskBase.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tasks/FixedTimeslotTaskBase.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tasks/PeriodicTaskBase.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tasks/PeriodicTaskBase.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tcdistribution/CcsdsDistributor.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tcdistribution/CcsdsDistributor.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tcdistribution/CcsdsPacketChecker.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tcdistribution/CcsdsPacketChecker.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tcdistribution/PusDistributor.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tcdistribution/PusDistributor.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tcdistribution/PusPacketChecker.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tcdistribution/PusPacketChecker.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tcdistribution/TcDistributorBase.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tcdistribution/TcDistributorBase.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tcdistribution/TcPacketCheckCFDP.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/thermal/AbstractTemperatureSensor.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/thermal/AbstractTemperatureSensor.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/thermal/Heater.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/thermal/Heater.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/thermal/RedundantHeater.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/thermal/RedundantHeater.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/thermal/ThermalComponent.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/thermal/ThermalComponent.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/thermal/ThermalComponentCore.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/thermal/ThermalComponentCore.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/thermal/ThermalModule.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/thermal/ThermalModule.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/thermal/ThermalMonitorReporter.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/thermal/ThermalMonitorReporter.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/timemanager/CCSDSTime.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/timemanager/CCSDSTime.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/timemanager/CdsShortTimeStamper.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/timemanager/CdsShortTimeStamper.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/timemanager/ClockCommon.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/timemanager/Countdown.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/timemanager/Countdown.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/timemanager/Stopwatch.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/timemanager/Stopwatch.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/timemanager/TimeMessage.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/timemanager/TimeMessage.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/ccsds/SpacePacketCreator.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/ccsds/SpacePacketCreator.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/ccsds/SpacePacketReader.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/ccsds/SpacePacketReader.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/ccsds/header.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/ccsds/header.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/packetmatcher/PacketMatchTree.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/packetmatcher/PacketMatchTree.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/pus/tc/PusTcCreator.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/pus/tc/PusTcCreator.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/pus/tc/PusTcReader.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/pus/tc/PusTcReader.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/pus/tm/PusTmCreator.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/pus/tm/PusTmCreator.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/pus/tm/PusTmMinimal.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/pus/tm/PusTmMinimal.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/pus/tm/PusTmReader.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/pus/tm/PusTmReader.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/pus/tm/PusTmZcWriter.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/pus/tm/PusTmZcWriter.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcservices/CommandingServiceBase.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcservices/CommandingServiceBase.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcservices/PusServiceBase.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcservices/PusServiceBase.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcservices/PusVerificationReport.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcservices/PusVerificationReport.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcservices/SpacePacketParser.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcservices/SpacePacketParser.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcservices/TmSendHelper.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcservices/TmSendHelper.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcservices/TmStoreAndSendHelper.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcservices/TmStoreAndSendHelper.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcservices/TmStoreHelper.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcservices/TmStoreHelper.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcservices/TmTcBridge.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcservices/TmTcBridge.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcservices/TmTcMessage.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcservices/TmTcMessage.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcservices/VerificationReporter.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcservices/VerificationReporter.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcservices/tcHelpers.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcservices/tcHelpers.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcservices/tmHelpers.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcservices/tmHelpers.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/version.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/version.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_hal/common/gpio/GpioCookie.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_hal/common/gpio/GpioCookie.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_hal/common/printChar.c">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_hal/devicehandlers/GyroL3GD20Handler.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_hal/devicehandlers/GyroL3GD20Handler.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_hal/devicehandlers/MgmLIS3MDLHandler.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_hal/devicehandlers/MgmLIS3MDLHandler.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_hal/devicehandlers/MgmRM3100Handler.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_hal/devicehandlers/MgmRM3100Handler.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_hal/host/HostFilesystem.cpp">
+			<Option target="fsfw-test.elf"/>
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_hal/host/HostFilesystem.h">
+			<Option target="fsfw-test.elf"/>
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/integration/assemblies/TestAssembly.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/integration/assemblies/TestAssembly.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/integration/controller/TestController.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/integration/controller/TestController.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/integration/devices/TestCookie.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/integration/devices/TestCookie.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/integration/devices/TestDeviceHandler.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/integration/devices/TestDeviceHandler.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/integration/devices/TestEchoComIF.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/integration/devices/TestEchoComIF.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/integration/task/TestTask.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/integration/task/TestTask.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/internal/InternalUnitTester.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/internal/InternalUnitTester.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/internal/UnittDefinitions.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/internal/UnittDefinitions.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/internal/globalfunctions/TestArrayPrinter.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/internal/globalfunctions/TestArrayPrinter.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/internal/osal/testMq.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/internal/osal/testMq.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/internal/osal/testMutex.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/internal/osal/testMutex.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/internal/osal/testSemaphore.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/internal/osal/testSemaphore.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/internal/serialize/IntTestSerialization.cpp">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/internal/serialize/IntTestSerialization.h">
+			<Option target="fsfw"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/_deps/etl-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\etl-src\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/_deps/etl-src/cmake/GetGitRevisionDescription.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\etl-src\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/_deps/etl-src/cmake/GetGitRevisionDescription.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\etl-src\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/_deps/etl-src/cmake/helpers.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\etl-src\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/_deps/etl-src/.git/HEAD">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\etl-src\.git\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/cmake/FsfwHelpers.cmake">
+			<Option virtualFolder="CMake Files\fsfw\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/cmake/cmake-modules/rpavlik/GetGitRevisionDescription.cmake">
+			<Option virtualFolder="CMake Files\fsfw\cmake\cmake-modules\rpavlik\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/FSFW.h.in">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/FSFWVersion.h.in">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/action/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\action\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\cfdp\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/pdu/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\cfdp\pdu\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/tlv/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\cfdp\tlv\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/cfdp/handler/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\cfdp\handler\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/container/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\container\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/controller/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\controller\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/datapool/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\datapool\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/datapoollocal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\datapoollocal\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/datapoollocal/internal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\datapoollocal\internal\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/devicehandlers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\devicehandlers\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/events/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\events\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/events/eventmatching/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\events\eventmatching\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/fdir/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\fdir\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/globalfunctions/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\globalfunctions\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/globalfunctions/math/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\globalfunctions\math\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/health/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\health\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/housekeeping/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\housekeeping\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/internalerror/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\internalerror\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/ipc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\ipc\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/memory/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\memory\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/modes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\modes\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/objectmanager/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\objectmanager\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/parameters/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\parameters\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/power/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\power\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/serialize/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\serialize\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/serviceinterface/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\serviceinterface\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/storagemanager/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\storagemanager\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/subsystem/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\subsystem\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/subsystem/modes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\subsystem\modes\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tasks/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\tasks\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tcdistribution/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\tcdistribution\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/thermal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\thermal\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/timemanager/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\timemanager\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\tmtcpacket\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/ccsds/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\tmtcpacket\ccsds\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/pus/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\tmtcpacket\pus\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/pus/tm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\tmtcpacket\pus\tm\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/pus/tc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\tmtcpacket\pus\tc\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/cfdp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\tmtcpacket\cfdp\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcpacket/packetmatcher/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\tmtcpacket\packetmatcher\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/tmtcservices/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\tmtcservices\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/filesystem/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\filesystem\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/monitoring/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\monitoring\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/pus/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\pus\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\osal\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/osal.h.in">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\osal\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\osal\freertos\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw\osal\common\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_hal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw_hal\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_hal/devicehandlers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw_hal\devicehandlers\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_hal/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw_hal\common\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_hal/common/gpio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw_hal\common\gpio\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_hal/host/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw_hal\host\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw_tests\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/internal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw_tests\internal\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/internal/osal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw_tests\internal\osal\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/internal/serialize/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw_tests\internal\serialize\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/internal/globalfunctions/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw_tests\internal\globalfunctions\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/integration/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw_tests\integration\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/integration/assemblies/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw_tests\integration\assemblies\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/integration/controller/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw_tests\integration\controller\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/integration/devices/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw_tests\integration\devices\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw_tests/integration/task/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\src\fsfw_tests\integration\task\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/contrib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\contrib\"/>
+		</Unit>
+		<Unit filename="/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/contrib/fsfw_contrib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\fsfw\contrib\fsfw_contrib\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

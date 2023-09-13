@@ -1,0 +1,2874 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "fsfw/libfsfw.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_compile_options",
+			"target_compile_options",
+			"include_directories",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"fsfw/CMakeLists.txt",
+			"CMakeLists.txt",
+			"fsfw/src/CMakeLists.txt",
+			"fsfw/contrib/CMakeLists.txt",
+			"fsfw/src/fsfw/CMakeLists.txt",
+			"fsfw/src/fsfw/action/CMakeLists.txt",
+			"fsfw/src/fsfw/cfdp/CMakeLists.txt",
+			"fsfw/src/fsfw/cfdp/pdu/CMakeLists.txt",
+			"fsfw/src/fsfw/cfdp/tlv/CMakeLists.txt",
+			"fsfw/src/fsfw/cfdp/handler/CMakeLists.txt",
+			"fsfw/src/fsfw/container/CMakeLists.txt",
+			"fsfw/src/fsfw/controller/CMakeLists.txt",
+			"fsfw/src/fsfw/datapool/CMakeLists.txt",
+			"fsfw/src/fsfw/datapoollocal/CMakeLists.txt",
+			"fsfw/src/fsfw/datapoollocal/internal/CMakeLists.txt",
+			"fsfw/src/fsfw/devicehandlers/CMakeLists.txt",
+			"fsfw/src/fsfw/events/CMakeLists.txt",
+			"fsfw/src/fsfw/events/eventmatching/CMakeLists.txt",
+			"fsfw/src/fsfw/fdir/CMakeLists.txt",
+			"fsfw/src/fsfw/globalfunctions/CMakeLists.txt",
+			"fsfw/src/fsfw/globalfunctions/math/CMakeLists.txt",
+			"fsfw/src/fsfw/health/CMakeLists.txt",
+			"fsfw/src/fsfw/housekeeping/CMakeLists.txt",
+			"fsfw/src/fsfw/internalerror/CMakeLists.txt",
+			"fsfw/src/fsfw/ipc/CMakeLists.txt",
+			"fsfw/src/fsfw/memory/CMakeLists.txt",
+			"fsfw/src/fsfw/modes/CMakeLists.txt",
+			"fsfw/src/fsfw/objectmanager/CMakeLists.txt",
+			"fsfw/src/fsfw/parameters/CMakeLists.txt",
+			"fsfw/src/fsfw/power/CMakeLists.txt",
+			"fsfw/src/fsfw/serialize/CMakeLists.txt",
+			"fsfw/src/fsfw/serviceinterface/CMakeLists.txt",
+			"fsfw/src/fsfw/storagemanager/CMakeLists.txt",
+			"fsfw/src/fsfw/subsystem/CMakeLists.txt",
+			"fsfw/src/fsfw/subsystem/modes/CMakeLists.txt",
+			"fsfw/src/fsfw/tasks/CMakeLists.txt",
+			"fsfw/src/fsfw/tcdistribution/CMakeLists.txt",
+			"fsfw/src/fsfw/thermal/CMakeLists.txt",
+			"fsfw/src/fsfw/timemanager/CMakeLists.txt",
+			"fsfw/src/fsfw/tmtcpacket/ccsds/CMakeLists.txt",
+			"fsfw/src/fsfw/tmtcpacket/pus/tm/CMakeLists.txt",
+			"fsfw/src/fsfw/tmtcpacket/pus/tc/CMakeLists.txt",
+			"fsfw/src/fsfw/tmtcpacket/packetmatcher/CMakeLists.txt",
+			"fsfw/src/fsfw/tmtcservices/CMakeLists.txt",
+			"fsfw/src/fsfw/filesystem/CMakeLists.txt",
+			"fsfw/src/fsfw/monitoring/CMakeLists.txt",
+			"fsfw/src/fsfw/pus/CMakeLists.txt",
+			"fsfw/src/fsfw/osal/freertos/CMakeLists.txt",
+			"fsfw/src/fsfw_hal/devicehandlers/CMakeLists.txt",
+			"fsfw/src/fsfw_hal/common/gpio/CMakeLists.txt",
+			"fsfw/src/fsfw_hal/common/CMakeLists.txt",
+			"fsfw/src/fsfw_hal/host/CMakeLists.txt",
+			"fsfw/src/fsfw_tests/internal/CMakeLists.txt",
+			"fsfw/src/fsfw_tests/internal/osal/CMakeLists.txt",
+			"fsfw/src/fsfw_tests/internal/serialize/CMakeLists.txt",
+			"fsfw/src/fsfw_tests/internal/globalfunctions/CMakeLists.txt",
+			"fsfw/src/fsfw_tests/integration/assemblies/CMakeLists.txt",
+			"fsfw/src/fsfw_tests/integration/controller/CMakeLists.txt",
+			"fsfw/src/fsfw_tests/integration/devices/CMakeLists.txt",
+			"fsfw/src/fsfw_tests/integration/task/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 143,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 49,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 465,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 52,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 236,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 11
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 1,
+				"parent" : 13
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 461,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 469,
+				"parent" : 0
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 1,
+				"parent" : 17
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 19
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 1,
+				"parent" : 21
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 7,
+				"line" : 1,
+				"parent" : 23
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 8,
+				"line" : 1,
+				"parent" : 25
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 9,
+				"line" : 1,
+				"parent" : 27
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 10,
+				"line" : 1,
+				"parent" : 29
+			},
+			{
+				"file" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 11,
+				"line" : 1,
+				"parent" : 31
+			},
+			{
+				"file" : 12
+			},
+			{
+				"command" : 6,
+				"file" : 12,
+				"line" : 1,
+				"parent" : 33
+			},
+			{
+				"file" : 13
+			},
+			{
+				"command" : 6,
+				"file" : 13,
+				"line" : 1,
+				"parent" : 35
+			},
+			{
+				"file" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 14,
+				"line" : 1,
+				"parent" : 37
+			},
+			{
+				"file" : 15
+			},
+			{
+				"command" : 6,
+				"file" : 15,
+				"line" : 1,
+				"parent" : 39
+			},
+			{
+				"file" : 16
+			},
+			{
+				"command" : 6,
+				"file" : 16,
+				"line" : 1,
+				"parent" : 41
+			},
+			{
+				"file" : 17
+			},
+			{
+				"command" : 6,
+				"file" : 17,
+				"line" : 1,
+				"parent" : 43
+			},
+			{
+				"file" : 18
+			},
+			{
+				"command" : 6,
+				"file" : 18,
+				"line" : 1,
+				"parent" : 45
+			},
+			{
+				"file" : 19
+			},
+			{
+				"command" : 6,
+				"file" : 19,
+				"line" : 1,
+				"parent" : 47
+			},
+			{
+				"file" : 20
+			},
+			{
+				"command" : 6,
+				"file" : 20,
+				"line" : 1,
+				"parent" : 49
+			},
+			{
+				"file" : 21
+			},
+			{
+				"command" : 6,
+				"file" : 21,
+				"line" : 1,
+				"parent" : 51
+			},
+			{
+				"file" : 22
+			},
+			{
+				"command" : 6,
+				"file" : 22,
+				"line" : 1,
+				"parent" : 53
+			},
+			{
+				"file" : 23
+			},
+			{
+				"command" : 6,
+				"file" : 23,
+				"line" : 1,
+				"parent" : 55
+			},
+			{
+				"file" : 24
+			},
+			{
+				"command" : 6,
+				"file" : 24,
+				"line" : 1,
+				"parent" : 57
+			},
+			{
+				"file" : 25
+			},
+			{
+				"command" : 6,
+				"file" : 25,
+				"line" : 1,
+				"parent" : 59
+			},
+			{
+				"file" : 26
+			},
+			{
+				"command" : 6,
+				"file" : 26,
+				"line" : 1,
+				"parent" : 61
+			},
+			{
+				"file" : 27
+			},
+			{
+				"command" : 6,
+				"file" : 27,
+				"line" : 1,
+				"parent" : 63
+			},
+			{
+				"file" : 28
+			},
+			{
+				"command" : 6,
+				"file" : 28,
+				"line" : 1,
+				"parent" : 65
+			},
+			{
+				"file" : 29
+			},
+			{
+				"command" : 6,
+				"file" : 29,
+				"line" : 1,
+				"parent" : 67
+			},
+			{
+				"file" : 30
+			},
+			{
+				"command" : 6,
+				"file" : 30,
+				"line" : 1,
+				"parent" : 69
+			},
+			{
+				"file" : 31
+			},
+			{
+				"command" : 6,
+				"file" : 31,
+				"line" : 1,
+				"parent" : 71
+			},
+			{
+				"file" : 32
+			},
+			{
+				"command" : 6,
+				"file" : 32,
+				"line" : 1,
+				"parent" : 73
+			},
+			{
+				"file" : 33
+			},
+			{
+				"command" : 6,
+				"file" : 33,
+				"line" : 1,
+				"parent" : 75
+			},
+			{
+				"file" : 34
+			},
+			{
+				"command" : 6,
+				"file" : 34,
+				"line" : 1,
+				"parent" : 77
+			},
+			{
+				"file" : 35
+			},
+			{
+				"command" : 6,
+				"file" : 35,
+				"line" : 1,
+				"parent" : 79
+			},
+			{
+				"file" : 36
+			},
+			{
+				"command" : 6,
+				"file" : 36,
+				"line" : 1,
+				"parent" : 81
+			},
+			{
+				"file" : 37
+			},
+			{
+				"command" : 6,
+				"file" : 37,
+				"line" : 1,
+				"parent" : 83
+			},
+			{
+				"file" : 38
+			},
+			{
+				"command" : 6,
+				"file" : 38,
+				"line" : 1,
+				"parent" : 85
+			},
+			{
+				"file" : 39
+			},
+			{
+				"command" : 6,
+				"file" : 39,
+				"line" : 1,
+				"parent" : 87
+			},
+			{
+				"file" : 40
+			},
+			{
+				"command" : 6,
+				"file" : 40,
+				"line" : 1,
+				"parent" : 89
+			},
+			{
+				"file" : 41
+			},
+			{
+				"command" : 6,
+				"file" : 41,
+				"line" : 1,
+				"parent" : 91
+			},
+			{
+				"file" : 42
+			},
+			{
+				"command" : 6,
+				"file" : 42,
+				"line" : 1,
+				"parent" : 93
+			},
+			{
+				"file" : 43
+			},
+			{
+				"command" : 6,
+				"file" : 43,
+				"line" : 1,
+				"parent" : 95
+			},
+			{
+				"file" : 44
+			},
+			{
+				"command" : 6,
+				"file" : 44,
+				"line" : 1,
+				"parent" : 97
+			},
+			{
+				"file" : 45
+			},
+			{
+				"command" : 6,
+				"file" : 45,
+				"line" : 1,
+				"parent" : 99
+			},
+			{
+				"file" : 46
+			},
+			{
+				"command" : 6,
+				"file" : 46,
+				"line" : 1,
+				"parent" : 101
+			},
+			{
+				"file" : 47
+			},
+			{
+				"command" : 6,
+				"file" : 47,
+				"line" : 1,
+				"parent" : 103
+			},
+			{
+				"file" : 48
+			},
+			{
+				"command" : 6,
+				"file" : 48,
+				"line" : 1,
+				"parent" : 105
+			},
+			{
+				"file" : 49
+			},
+			{
+				"command" : 6,
+				"file" : 49,
+				"line" : 1,
+				"parent" : 107
+			},
+			{
+				"file" : 50
+			},
+			{
+				"command" : 6,
+				"file" : 50,
+				"line" : 3,
+				"parent" : 109
+			},
+			{
+				"file" : 51
+			},
+			{
+				"command" : 6,
+				"file" : 51,
+				"line" : 1,
+				"parent" : 111
+			},
+			{
+				"file" : 52
+			},
+			{
+				"command" : 6,
+				"file" : 52,
+				"line" : 1,
+				"parent" : 113
+			},
+			{
+				"file" : 53
+			},
+			{
+				"command" : 6,
+				"file" : 53,
+				"line" : 1,
+				"parent" : 115
+			},
+			{
+				"file" : 54
+			},
+			{
+				"command" : 6,
+				"file" : 54,
+				"line" : 1,
+				"parent" : 117
+			},
+			{
+				"file" : 55
+			},
+			{
+				"command" : 6,
+				"file" : 55,
+				"line" : 1,
+				"parent" : 119
+			},
+			{
+				"file" : 56
+			},
+			{
+				"command" : 6,
+				"file" : 56,
+				"line" : 1,
+				"parent" : 121
+			},
+			{
+				"file" : 57
+			},
+			{
+				"command" : 6,
+				"file" : 57,
+				"line" : 1,
+				"parent" : 123
+			},
+			{
+				"file" : 58
+			},
+			{
+				"command" : 6,
+				"file" : 58,
+				"line" : 1,
+				"parent" : 125
+			},
+			{
+				"file" : 59
+			},
+			{
+				"command" : 6,
+				"file" : 59,
+				"line" : 1,
+				"parent" : 127
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17 -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mfpu=fpv4-sp-d16"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mcpu=cortex-m4"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mthumb-interwork"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fmessage-length=0"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wimplicit-fallthrough=1"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-psabi"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wduplicated-cond"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wduplicated-branches"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wlogical-op"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wnull-dereference"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wformat=2"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wformat-overflow=2"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wformat-truncation=2"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wformat-security"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wstrict-overflow=3"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Warray-bounds=2"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wshift-overflow=2"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wcast-qual"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wstringop-overflow=4"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/Inc"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Core/Inc"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/fsfw"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/contrib"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/config_default"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/inc"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/_deps/etl-src/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mfpu=fpv4-sp-d16"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mcpu=cortex-m4"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mthumb-interwork"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fmessage-length=0"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wimplicit-fallthrough=1"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-psabi"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wduplicated-cond"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wduplicated-branches"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wlogical-op"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wnull-dereference"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wformat=2"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wformat-overflow=2"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wformat-truncation=2"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wformat-security"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wstrict-overflow=3"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Warray-bounds=2"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wshift-overflow=2"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wcast-qual"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wstringop-overflow=4"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/Inc"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Core/Inc"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/fsfw"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/contrib"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/config_default"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/inc"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "/Users/kryptokommunist/CLionProjects/fsfw-test/cmake-build-debug/_deps/etl-src/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				202
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "FreeRTOS::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "fsfw::@b0404f0086aa5679e2d0",
+	"name" : "fsfw",
+	"nameOnDisk" : "libfsfw.a",
+	"paths" : 
+	{
+		"build" : "fsfw",
+		"source" : "fsfw"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 18,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/version.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/action/ActionHelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/action/ActionMessage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/action/CommandActionHelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/action/SimpleActionHelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 22,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/CfdpMessage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 22,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/CfdpDistributor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 22,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/VarLenFields.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 22,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/helpers.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/PduConfig.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/HeaderCreator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/HeaderReader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/FileDirectiveReader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/FileDirectiveCreator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/AckInfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/AckPduCreator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/AckPduReader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/EofInfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/EofPduCreator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/EofPduReader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/NakInfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/NakPduCreator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/NakPduReader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/FinishedInfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/FinishedPduCreator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/FinishedPduReader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/MetadataInfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/MetadataPduCreator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/MetadataPduReader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/KeepAlivePduCreator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/KeepAlivePduReader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/PromptPduCreator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/PromptPduReader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/FileDataCreator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/FileDataReader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/pdu/FileDataInfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 26,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/tlv/EntityIdTlv.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 26,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/tlv/FilestoreRequestTlv.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 26,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/tlv/FilestoreResponseTlv.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 26,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/tlv/Lv.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 26,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/tlv/Tlv.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 26,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/tlv/StringLv.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 26,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/tlv/FlowLabelTlv.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 26,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/tlv/MessageToUserTlv.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 26,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/tlv/FaultHandlerOverrideTlv.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 28,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/handler/FaultHandlerBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 28,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/cfdp/handler/UserBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 30,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/container/SharedRingBuffer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 30,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/container/SimpleRingBuffer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/controller/ControllerBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/controller/ExtendedControllerBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/datapool/PoolDataSetBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/datapool/PoolEntry.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 36,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/datapoollocal/LocalDataPoolManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 36,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/datapoollocal/LocalDataSet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 36,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/datapoollocal/LocalPoolDataSetBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 36,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/datapoollocal/LocalPoolObjectBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 36,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/datapoollocal/SharedLocalDataSet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/datapoollocal/internal/HasLocalDpIFUserAttorney.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 38,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/datapoollocal/internal/HasLocalDpIFManagerAttorney.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/devicehandlers/AssemblyBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/devicehandlers/ChildHandlerBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/devicehandlers/ChildHandlerFDIR.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/devicehandlers/DeviceHandlerBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/devicehandlers/DeviceHandlerFailureIsolation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/devicehandlers/DeviceHandlerMessage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/devicehandlers/DeviceTmReportingWrapper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/devicehandlers/HealthDevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 42,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/events/EventManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 42,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/events/EventMessage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/events/eventmatching/EventIdRangeMatcher.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/events/eventmatching/EventMatchTree.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/events/eventmatching/ReporterRangeMatcher.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/events/eventmatching/SeverityRangeMatcher.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 46,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/fdir/EventCorrelation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 46,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/fdir/FailureIsolationBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 46,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/fdir/FaultCounter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/globalfunctions/arrayprinter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/globalfunctions/AsciiConverter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/globalfunctions/CRC.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/globalfunctions/DleEncoder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/globalfunctions/DleParser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/globalfunctions/PeriodicOperationDivider.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/globalfunctions/timevalOperations.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/globalfunctions/Type.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 48,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/globalfunctions/bitutility.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 50,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/globalfunctions/math/QuaternionOperations.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 52,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/health/HealthHelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 52,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/health/HealthMessage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 52,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/health/HealthTable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 54,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/housekeeping/HousekeepingMessage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 54,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/housekeeping/PeriodicHousekeepingHelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 56,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/internalerror/InternalErrorReporter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 58,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/ipc/CommandMessage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 58,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/ipc/CommandMessageCleaner.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 58,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/ipc/MessageQueueMessage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 58,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/ipc/MessageQueueBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 60,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/memory/MemoryHelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 60,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/memory/MemoryMessage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 62,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/modes/ModeHelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 62,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/modes/ModeMessage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/objectmanager/ObjectManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 64,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/objectmanager/SystemObject.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 66,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/parameters/ParameterHelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 66,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/parameters/ParameterMessage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 66,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/parameters/ParameterWrapper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 68,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/power/Fuse.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 68,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/power/PowerComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 68,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/power/PowerSensor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 68,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/power/PowerSwitcher.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 68,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/power/DummyPowerSwitcher.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 68,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/power/PowerSwitcherComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 70,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/serialize/SerialBufferAdapter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 72,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/serviceinterface/ServiceInterfaceStream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 72,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/serviceinterface/ServiceInterfaceBuffer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 72,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/serviceinterface/ServiceInterfacePrinter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 74,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/storagemanager/ConstStorageAccessor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 74,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/storagemanager/StorageAccessor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 74,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/storagemanager/LocalPool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 74,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/storagemanager/PoolManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 76,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/subsystem/Subsystem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 76,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/subsystem/SubsystemBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 78,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/subsystem/modes/ModeSequenceMessage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 78,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/subsystem/modes/ModeStore.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 80,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tasks/FixedSequenceSlot.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 80,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tasks/FixedSlotSequence.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 80,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tasks/PeriodicTaskBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 80,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tasks/FixedTimeslotTaskBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 82,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tcdistribution/CcsdsDistributor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 82,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tcdistribution/PusDistributor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 82,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tcdistribution/TcDistributorBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 82,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tcdistribution/PusPacketChecker.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 82,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tcdistribution/TcPacketCheckCFDP.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 82,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tcdistribution/CcsdsPacketChecker.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 84,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/thermal/AbstractTemperatureSensor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 84,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/thermal/Heater.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 84,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/thermal/RedundantHeater.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 84,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/thermal/ThermalComponentCore.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 84,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/thermal/ThermalComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 84,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/thermal/ThermalModule.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 84,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/thermal/ThermalMonitorReporter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 86,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/timemanager/CCSDSTime.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 86,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/timemanager/Countdown.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 86,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/timemanager/Stopwatch.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 86,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/timemanager/TimeMessage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 86,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/timemanager/CdsShortTimeStamper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 86,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/timemanager/ClockCommon.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 88,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tmtcpacket/ccsds/SpacePacketReader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 88,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tmtcpacket/ccsds/SpacePacketCreator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 88,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tmtcpacket/ccsds/header.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 90,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tmtcpacket/pus/tm/PusTmCreator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 90,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tmtcpacket/pus/tm/PusTmReader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 90,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tmtcpacket/pus/tm/PusTmMinimal.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 90,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tmtcpacket/pus/tm/PusTmZcWriter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 92,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tmtcpacket/pus/tc/PusTcReader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 92,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tmtcpacket/pus/tc/PusTcCreator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 94,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tmtcpacket/packetmatcher/PacketMatchTree.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 96,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tmtcservices/CommandingServiceBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 96,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tmtcservices/PusServiceBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 96,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tmtcservices/PusVerificationReport.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 96,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tmtcservices/TmTcBridge.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 96,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tmtcservices/TmTcMessage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 96,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tmtcservices/VerificationReporter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 96,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tmtcservices/SpacePacketParser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 96,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tmtcservices/TmStoreHelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 96,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tmtcservices/TmSendHelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 96,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tmtcservices/TmStoreAndSendHelper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 96,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tmtcservices/tcHelpers.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 96,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/tmtcservices/tmHelpers.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 98,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/filesystem/GenericFileSystemMessage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 100,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/monitoring/LimitViolationReporter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 100,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/monitoring/MonitoringMessage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 102,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/pus/Service1TelecommandVerification.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 102,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/pus/Service2DeviceAccess.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 102,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/pus/Service3Housekeeping.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 102,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/pus/Service5EventReporting.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 102,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/pus/Service8FunctionManagement.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 102,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/pus/Service9TimeManagement.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 102,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/pus/Service17Test.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 102,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/pus/Service20ParameterManagement.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 102,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/pus/CService200ModeCommanding.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 102,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/pus/CServiceHealthCommanding.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 104,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/osal/freertos/Clock.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 104,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/osal/freertos/FixedTimeslotTask.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 104,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/osal/freertos/BinarySemaphore.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 104,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/osal/freertos/BinSemaphUsingTask.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 104,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/osal/freertos/CountingSemaphore.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 104,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/osal/freertos/CountingSemaphUsingTask.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 104,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/osal/freertos/MessageQueue.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 104,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/osal/freertos/Mutex.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 104,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/osal/freertos/MutexFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 104,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/osal/freertos/PeriodicTask.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 104,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/osal/freertos/QueueFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 104,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/osal/freertos/SemaphoreFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 104,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/osal/freertos/TaskFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 104,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/osal/freertos/Timekeeper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 104,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/osal/freertos/TaskManagement.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 104,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw/osal/freertos/QueueMapManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 106,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw_hal/devicehandlers/GyroL3GD20Handler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 106,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw_hal/devicehandlers/MgmRM3100Handler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 106,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw_hal/devicehandlers/MgmLIS3MDLHandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 108,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw_hal/common/gpio/GpioCookie.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 110,
+			"compileGroupIndex" : 1,
+			"path" : "fsfw/src/fsfw_hal/common/printChar.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 112,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw_hal/host/HostFilesystem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 114,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw_tests/internal/InternalUnitTester.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 114,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw_tests/internal/UnittDefinitions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 116,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw_tests/internal/osal/testMq.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 116,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw_tests/internal/osal/testMutex.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 116,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw_tests/internal/osal/testSemaphore.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 118,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw_tests/internal/serialize/IntTestSerialization.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 120,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw_tests/internal/globalfunctions/TestArrayPrinter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 122,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw_tests/integration/assemblies/TestAssembly.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 124,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw_tests/integration/controller/TestController.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 126,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw_tests/integration/devices/TestCookie.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 126,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw_tests/integration/devices/TestDeviceHandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 126,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw_tests/integration/devices/TestEchoComIF.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 128,
+			"compileGroupIndex" : 0,
+			"path" : "fsfw/src/fsfw_tests/integration/task/TestTask.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

@@ -1,0 +1,32 @@
+fsfw/CMakeFiles/fsfw.dir/src/fsfw/osal/freertos/MutexFactory.cpp.obj: \
+ /Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/MutexFactory.cpp \
+ /Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/ipc/MutexFactory.h \
+ /Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/ipc/MutexIF.h \
+ /Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/ipc/../returnvalues/returnvalue.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/cstdint \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/os_defines.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/cpu_defines.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+ /Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/ipc/../returnvalues/FwClassIds.h \
+ /Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/osal/freertos/Mutex.h \
+ /Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
+ /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ /Users/kryptokommunist/CLionProjects/fsfw-test/Inc/FreeRTOSConfig.h \
+ /Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
+ /Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
+ /Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
+ /Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+ /Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
+ /Users/kryptokommunist/CLionProjects/fsfw-test/fsfw/src/fsfw/ipc/MutexIF.h \
+ /Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
+ /Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
+ /Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+ /Users/kryptokommunist/CLionProjects/fsfw-test/Middlewares/Third_Party/FreeRTOS/Source/include/list.h

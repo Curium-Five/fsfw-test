@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "fsfw/contrib/fsfw_contrib",
+		"source" : "fsfw/contrib/fsfw_contrib"
+	}
+}

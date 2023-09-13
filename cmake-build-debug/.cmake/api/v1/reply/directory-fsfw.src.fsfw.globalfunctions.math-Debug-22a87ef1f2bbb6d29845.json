@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "fsfw/src/fsfw/globalfunctions/math",
+		"source" : "fsfw/src/fsfw/globalfunctions/math"
+	}
+}
